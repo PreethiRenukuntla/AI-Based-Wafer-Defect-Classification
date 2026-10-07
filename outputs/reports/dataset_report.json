@@ -1,0 +1,45 @@
+{
+    "total_wafers": 811457,
+    "total_labeled": 172950,
+    "total_unlabeled": 638507,
+    "labeled_percentage": 21.31,
+    "unlabeled_percentage": 78.69,
+    "unique_lots": 46293,
+    "num_classes": 9,
+    "class_distribution": {
+        "none": 147431,
+        "Edge-Ring": 9680,
+        "Edge-Loc": 5189,
+        "Center": 4294,
+        "Loc": 3593,
+        "Scratch": 1193,
+        "Random": 866,
+        "Donut": 555,
+        "Near-full": 149
+    },
+    "class_percentages": {
+        "none": 85.24,
+        "Edge-Ring": 5.6,
+        "Edge-Loc": 3.0,
+        "Center": 2.48,
+        "Loc": 2.08,
+        "Scratch": 0.69,
+        "Random": 0.5,
+        "Donut": 0.32,
+        "Near-full": 0.09
+    },
+    "train_official_count": 54355,
+    "test_official_count": 118595,
+    "dimension_stats": {
+        "min_shape": [
+            6,
+            3
+        ],
+        "max_shape": [
+            300,
+            205
+        ],
+        "mean_rows": 45.06,
+        "mean_cols": 43.12
+    }
+}

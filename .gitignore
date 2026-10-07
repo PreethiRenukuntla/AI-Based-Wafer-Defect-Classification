@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Data & Models (Preserve structures, exclude large raw files if needed)
+# Note: LSWMD.pkl should be kept read-only in data/raw/wm811k/
+data/processed/*.npz
+outputs/predictions/*.json
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

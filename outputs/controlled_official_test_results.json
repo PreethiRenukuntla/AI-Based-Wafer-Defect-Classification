@@ -1,0 +1,221 @@
+{
+  "model": "models\\wafer_resnet_controlled_best.pth",
+  "device": "cpu",
+  "test_samples": 118595,
+  "accuracy": 0.9555461866014587,
+  "accuracy_percent": 95.55461866014588,
+  "error_rate": 0.044453813398541264,
+  "error_percent": 4.445381339854126,
+  "balanced_accuracy": 0.7338521069916187,
+  "balanced_accuracy_percent": 73.38521069916187,
+  "macro_precision": 0.6840854493479935,
+  "macro_recall": 0.7338521069916187,
+  "macro_f1": 0.7049055572534008,
+  "weighted_precision": 0.9601044521142557,
+  "weighted_recall": 0.9555461866014587,
+  "weighted_f1": 0.9573906701586151,
+  "evaluation_time_minutes": 7.114370314280192,
+  "classes": [
+    "Center",
+    "Donut",
+    "Edge-Loc",
+    "Edge-Ring",
+    "Loc",
+    "Near-full",
+    "Random",
+    "Scratch",
+    "none"
+  ],
+  "classification_report": {
+    "Center": {
+      "precision": 0.5758176412289395,
+      "recall": 0.6983173076923077,
+      "f1-score": 0.6311787072243346,
+      "support": 832.0
+    },
+    "Donut": {
+      "precision": 0.6058394160583942,
+      "recall": 0.5684931506849316,
+      "f1-score": 0.5865724381625441,
+      "support": 146.0
+    },
+    "Edge-Loc": {
+      "precision": 0.5579989004947774,
+      "recall": 0.7323232323232324,
+      "f1-score": 0.6333853354134166,
+      "support": 2772.0
+    },
+    "Edge-Ring": {
+      "precision": 0.7551525144270403,
+      "recall": 0.8134991119005328,
+      "f1-score": 0.7832407011543394,
+      "support": 1126.0
+    },
+    "Loc": {
+      "precision": 0.6167567567567568,
+      "recall": 0.5783071464774455,
+      "f1-score": 0.596913418781062,
+      "support": 1973.0
+    },
+    "Near-full": {
+      "precision": 0.8703703703703703,
+      "recall": 0.9894736842105263,
+      "f1-score": 0.9261083743842364,
+      "support": 95.0
+    },
+    "Random": {
+      "precision": 0.7641921397379913,
+      "recall": 0.6809338521400778,
+      "f1-score": 0.720164609053498,
+      "support": 257.0
+    },
+    "Scratch": {
+      "precision": 0.4250269687162891,
+      "recall": 0.5685425685425686,
+      "f1-score": 0.48641975308641977,
+      "support": 693.0
+    },
+    "none": {
+      "precision": 0.9856143363413832,
+      "recall": 0.9747789089529453,
+      "f1-score": 0.9801666780207553,
+      "support": 110701.0
+    },
+    "accuracy": 0.9555461866014587,
+    "macro avg": {
+      "precision": 0.6840854493479935,
+      "recall": 0.7338521069916187,
+      "f1-score": 0.7049055572534008,
+      "support": 118595.0
+    },
+    "weighted avg": {
+      "precision": 0.9601044521142557,
+      "recall": 0.9555461866014587,
+      "f1-score": 0.9573906701586151,
+      "support": 118595.0
+    }
+  },
+  "true_distribution": {
+    "Center": 832,
+    "Donut": 146,
+    "Edge-Loc": 2772,
+    "Edge-Ring": 1126,
+    "Loc": 1973,
+    "Near-full": 95,
+    "Random": 257,
+    "Scratch": 693,
+    "none": 110701
+  },
+  "predicted_distribution": {
+    "Center": 1009,
+    "Donut": 137,
+    "Edge-Loc": 3638,
+    "Edge-Ring": 1213,
+    "Loc": 1850,
+    "Near-full": 108,
+    "Random": 229,
+    "Scratch": 927,
+    "none": 109484
+  },
+  "confusion_matrix": [
+    [
+      581,
+      1,
+      22,
+      1,
+      24,
+      1,
+      2,
+      5,
+      195
+    ],
+    [
+      20,
+      83,
+      0,
+      0,
+      11,
+      0,
+      10,
+      8,
+      14
+    ],
+    [
+      5,
+      0,
+      2030,
+      98,
+      86,
+      1,
+      15,
+      20,
+      517
+    ],
+    [
+      1,
+      0,
+      51,
+      916,
+      0,
+      0,
+      0,
+      1,
+      157
+    ],
+    [
+      61,
+      30,
+      133,
+      1,
+      1141,
+      1,
+      12,
+      96,
+      498
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      94,
+      1,
+      0,
+      0
+    ],
+    [
+      11,
+      7,
+      17,
+      0,
+      11,
+      11,
+      175,
+      2,
+      23
+    ],
+    [
+      2,
+      3,
+      16,
+      1,
+      106,
+      0,
+      0,
+      394,
+      171
+    ],
+    [
+      328,
+      13,
+      1369,
+      196,
+      471,
+      0,
+      14,
+      401,
+      107909
+    ]
+  ]
+}

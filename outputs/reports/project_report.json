@@ -1,0 +1,65 @@
+{
+    "project_title": "AI-Based Semiconductor Wafer Defect Inspection & Support System",
+    "dataset": "WM-811K (LSWMD.pkl)",
+    "baseline_accuracy": "53.66%",
+    "achieved_test_accuracy": "57.83%",
+    "improvement": "+4.17%",
+    "balanced_accuracy": "50.94%",
+    "error_rate": "42.17%",
+    "per_class_summary": {
+        "Center": {
+            "precision": 0.1724,
+            "recall": 0.006,
+            "f1_score": 0.0116,
+            "support": 832
+        },
+        "Donut": {
+            "precision": 0.306,
+            "recall": 0.6644,
+            "f1_score": 0.419,
+            "support": 146
+        },
+        "Edge-Loc": {
+            "precision": 0.654,
+            "recall": 0.2244,
+            "f1_score": 0.3341,
+            "support": 2772
+        },
+        "Edge-Ring": {
+            "precision": 0.8476,
+            "recall": 0.5089,
+            "f1_score": 0.636,
+            "support": 1126
+        },
+        "Loc": {
+            "precision": 0.5365,
+            "recall": 0.1713,
+            "f1_score": 0.2597,
+            "support": 1973
+        },
+        "Near-full": {
+            "precision": 0.5621,
+            "recall": 1.0,
+            "f1_score": 0.7197,
+            "support": 95
+        },
+        "Random": {
+            "precision": 0.5556,
+            "recall": 0.7393,
+            "f1_score": 0.6344,
+            "support": 257
+        },
+        "Scratch": {
+            "precision": 0.0096,
+            "recall": 0.6724,
+            "f1_score": 0.019,
+            "support": 693
+        },
+        "none": {
+            "precision": 0.9866,
+            "recall": 0.598,
+            "f1_score": 0.7446,
+            "support": 110701
+        }
+    }
+}

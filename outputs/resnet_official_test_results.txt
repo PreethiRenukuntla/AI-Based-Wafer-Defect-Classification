@@ -1,0 +1,47 @@
+WM-811K OFFICIAL TEST RESULTS
+======================================================================
+
+Model: WaferDefectResNet
+Test samples: 118,595
+Accuracy: 57.83%
+Error: 42.17%
+Balanced Accuracy: 50.94%
+Macro Precision: 0.5145
+Macro Recall: 0.5094
+Macro F1: 0.4198
+Weighted Precision: 0.9565
+Weighted Recall: 0.5783
+Weighted F1: 0.7159
+Evaluation Time: 6.37 minutes
+
+CLASSIFICATION REPORT
+======================================================================
+
+              precision    recall  f1-score   support
+
+      Center       0.17      0.01      0.01       832
+       Donut       0.31      0.66      0.42       146
+    Edge-Loc       0.65      0.22      0.33      2772
+   Edge-Ring       0.85      0.51      0.64      1126
+         Loc       0.54      0.17      0.26      1973
+   Near-full       0.56      1.00      0.72        95
+      Random       0.56      0.74      0.63       257
+     Scratch       0.01      0.67      0.02       693
+        none       0.99      0.60      0.74    110701
+
+    accuracy                           0.58    118595
+   macro avg       0.51      0.51      0.42    118595
+weighted avg       0.96      0.58      0.72    118595
+
+
+CONFUSION MATRIX
+======================================================================
+[[    5    60     4     0   119     1     5   523   115]
+ [    1    97     0     0     6     3    10    28     1]
+ [    0     1   622    51    65    30    75  1636   292]
+ [    0     0   176   573     0     0     5   338    34]
+ [   22   104    62     1   338     8     9  1137   292]
+ [    0     0     0     0     0    95     0     0     0]
+ [    1    17     1     0     0    32   190    13     3]
+ [    0    10     3     0    51     0     0   466   163]
+ [    0    28    83    51    51     0    48 44244 66196]]
